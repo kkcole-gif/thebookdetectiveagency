@@ -1,0 +1,7 @@
+/* The Book Detective Agency, site styles. Most styling is inline in index.html so the page matches the approved design one to one; this file carries base rules only. */
+:root{--teal:#1F5F68;--red:#C8402B;--gold:#B8780F;--violet:#5B4A8A;--ink:#1C1A16;--paper:#FFFFFF;--cream:#F6F3EC;--rule:#E4DFD5;--muted:#5A5548}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'Lexend',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto}
+a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+@media (max-width:640px){h1{font-size:38px!important}h2{font-size:28px!important}}
